@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<windows.h>
-//出口坐标
+// Destination
 #define bournX 10;
 #define bournY 1;
 
@@ -18,7 +18,7 @@ int main()
     "##    #    #",
     "############",};
 
-    int x,y;    //x存行数，y存列数
+    int x,y;   
 
     x=1;
     y=1;
@@ -30,7 +30,7 @@ int main()
         for(int i=0;i<7;i++)
             puts(a[i]);
 
-        ch=getch();     //接收输入
+        ch=getch();     // Get an input char from stdin
         system("cls");
         switch(ch)
         {
